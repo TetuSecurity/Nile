@@ -1,0 +1,31 @@
+{
+  "name": "@tetu/nile",
+  "version": "0.0.0",
+  "description": "Signed, sealed, delivered messages between services",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "bin": {
+    "keygen": "dist/bin/genKeyPair.js"
+  },
+  "keywords": [
+    "JOSE",
+    "JWT",
+    "JWE",
+    "microservice acrhitecture"
+  ],
+  "author": "tetu-security",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "14.14.28",
+    "ts-node": "9.1.1",
+    "tslib": "2.1.0",
+    "typescript": "4.1.5"
+  },
+  "dependencies": {
+    "jose": "3.6.2",
+    "rxjs": "6.6.3"
+  }
+}
